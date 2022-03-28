@@ -7,7 +7,7 @@ class App extends React.Component {
         return (
             <div id="main" className="container">
                 <h2>Hello World!</h2>
-                <p>Lorem Ipsum.</p>
+                <p>Lorem Ipsum...</p>
                 <Product />
                 <Product />
                 <Product />
