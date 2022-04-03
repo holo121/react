@@ -1,5 +1,12 @@
-import React from "react"
-import ReactDom from 'react-dom'
-import App from './App'
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDom.render(<App />, document.getElementById('root'))
+const Element = React.createElement("div",
+    {
+        id: "main",
+        className: "container"
+    },
+    "Hello world"
+);
+
+ReactDOM.render(Element, document.getElementById("root"));
